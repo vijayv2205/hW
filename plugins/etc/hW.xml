@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>hW</name>
+    <displayName>Hello World Plugin</displayName>
+    <creationDate>2017-10-01</creationDate>
+    <author>Vijay Verma</author>
+    <authorEmail>vijayv2205@gmail.com</authorEmail>
+    <authorUrl>http://www.yuvasoftech.com/</authorUrl>
+    <license>GNU Gneral Public License v2</license>
+    <description>Plugin that provides basic hello world.</description>
+    <version>1.0.0</version>
+    <type>package</type>
+
+    <install>
+        <contents>
+            <group name="hW">1</group>
+        </contents>
+    </install>
+</plugin>

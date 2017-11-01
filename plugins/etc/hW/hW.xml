@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>hW</name>
+    <displayName>Hello World Plugin</displayName>
+    <creationDate>2017-10-01</creationDate>
+    <author>Vijay Verma</author>
+    <authorEmail>vijayv2205@gmail.com</authorEmail>
+    <authorUrl>http://www.yuvasoftech.com/</authorUrl>
+    <license>GNU Gneral Public License v2</license>
+    <description>Plugin that provides basic hello world.</description>
+    <version>1.0.0</version>
+    <oxversion>2.8.2-rc9</oxversion>
+    <extends>api</extends>
+
+    <install>
+        <files>
+          <file path="{MODULEPATH}api/hW/">helloWorld.class.php</file>
+        </files>
+    </install>
+</plugin>
